@@ -1,4 +1,4 @@
-name: Deplpoy to GitHub Pages]
+name: Deploy to GitHub Pages]
 
 on:
   push:
@@ -7,6 +7,8 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     # strategy:
     #   matrix:
     #     node-version:
