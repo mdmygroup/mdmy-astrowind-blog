@@ -21,8 +21,17 @@ const hasExternalScripts = false;
 const whenExternalScripts = (items: (() => AstroIntegration) | (() => AstroIntegration)[] = []) =>
   hasExternalScripts ? (Array.isArray(items) ? items.map((item) => item()) : [items()]) : [];
 
+// Get the repository name for GitHub Pages
+const getRepositoryName = () => {
+  // Change this to match your GitHub repository name
+  return 'mdmy-astrowind-blog';
+};
+
 export default defineConfig({
   output: 'static',
+  // GitHub Pages configuration
+  site: `https://mdmygroup.github.io`,
+  base: `/${getRepositoryName()}`,
 
   integrations: [
     tailwind({
