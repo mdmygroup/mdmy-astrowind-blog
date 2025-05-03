@@ -1,14 +1,14 @@
 ---
 publishDate: 2025-05-02
-title: L’hébergement de votre site : ce que vous devez absolument savoir (avant d’acheter n’importe quelle offre)
+title: L'hébergement de votre site - ce que vous devez absolument savoir (avant d'acheter n'importe quelle offre)
 excerpt: Avant de choisir un hébergement pour votre site, comprenez les différences entre mutualisé, dédié et cloud, et découvrez comment ces choix impactent la vitesse, la sécurité et le SEO de votre entreprise.
 image: https://images.unsplash.com/photo-1556761175-5973dc0f32e7
-category: Blog 
+category: Blog
 tags:
   - blog
-  - hébergement web
+  - hebergement web
   - performance SEO
-metadata:  
+metadata:
   canonical: https://www.mdmygroup.com/blog/hebergement-site-entreprise
 ---
 
